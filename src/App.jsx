@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import ServicePage from "./pages/ServicePage";
@@ -10,8 +11,8 @@ import NoPage from "./pages/NoPage";
 function App() {
   return (
     <>
-      <NavBar />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/" element={<HomePage />} />
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
