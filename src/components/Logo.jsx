@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Logo({ size = "10" }) {
   const logoStyle = `fill-Mocha-dark hover:fill-Mocha-light size-${size}`;
   return (
-    <Link to="/" className="flex">
+    <Link to="/">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"

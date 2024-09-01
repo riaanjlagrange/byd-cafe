@@ -13,10 +13,6 @@ export default {
         Beige: {
           DEFAULT: "#F4EDE2",
         },
-        inset: {
-          "-4": "-1rem",
-          "-8": "-2rem",
-        },
       },
     },
   },

@@ -1,36 +1,41 @@
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Card from "../components/Card";
 
-function ProductPanel({ data }) {
-  const safeItems = data || [];
+function ProductPanel({ page }) {
+  const [data, setData] = useState([]);
+  const endpoint = `http://localhost:3002/api/${page}`;
+  console.log(endpoint);
+
+  useEffect(() => {
+    fetch(endpoint)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => setData(data))
+      .catch((err) => {
+        console.error("Error fetching data:", err);
+      });
+  }, [endpoint]);
+
+  if (data.length < 1) {
+    return <h1>Error fetching data</h1>;
+  }
+
   return (
     <ul className="grid grid-cols-3 grid-rows-auto auto-rows-fr p-10 gap-10">
-      {safeItems.length > 0 ? (
-        safeItems.map((item, index) => (
-          <Card
-            name={item.name}
-            description={item.description}
-            price={item.price}
-            size={item.size}
-            key={index}
-          />
-        ))
-      ) : (
-        <li>{alert(data)}</li>
-      )}
+      {data.map((item, index) => (
+        <Card data={item} key={index} />
+      ))}
     </ul>
   );
 }
 
 ProductPanel.propTypes = {
-  data: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      description: PropTypes.string,
-      price: PropTypes.number.isRequired,
-      size: PropTypes.arrayOf(PropTypes.string), // Adjust based on actual structure
-    })
-  ).isRequired,
+  page: PropTypes.string.isRequired,
 };
 
 export default ProductPanel;
