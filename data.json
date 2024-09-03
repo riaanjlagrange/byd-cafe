@@ -4,31 +4,61 @@
       "name": "Cappuccino",
       "description": "A classic Italian coffee drink with espresso and steamed milk, topped with a layer of frothy milk foam.",
       "price": 35,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Lemon Poppy Seed Muffin",
       "description": "A moist and tangy lemon-flavored muffin, dotted with crunchy poppy seeds.",
       "price": 25,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Rooibos Latte",
       "description": "A South African twist on the latte, made with brewed rooibos tea and steamed milk.",
       "price": 30,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Iced Americano",
       "description": "A refreshing cold brew coffee with a bold, smooth flavor, served over ice.",
       "price": 28,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Chocolate Croissant",
       "description": "A buttery, flaky croissant filled with rich, melted chocolate.",
       "price": 27,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Vanilla Latte",
+      "description": "A creamy espresso-based drink flavored with vanilla syrup and topped with steamed milk.",
+      "price": 32,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Almond Biscotti",
+      "description": "A crunchy Italian biscuit flavored with almonds, perfect for dipping in coffee.",
+      "price": 18,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Iced Chai Latte",
+      "description": "A chilled version of the classic chai latte, made with spiced tea and milk over ice.",
+      "price": 30,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Hazelnut Mocha",
+      "description": "A rich blend of espresso, steamed milk, chocolate, and hazelnut syrup, topped with whipped cream.",
+      "price": 40,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Orange Cranberry Scone",
+      "description": "A crumbly scone packed with tart cranberries and zesty orange flavor.",
+      "price": 22,
+      "size": ["Standard", "Large"]
     }
   ],
   "coffeeData": [
@@ -36,31 +66,61 @@
       "name": "Espresso",
       "description": "A strong, bold shot of pure coffee, the foundation of all great coffee drinks.",
       "price": 20,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Flat White",
       "description": "A smooth, creamy coffee made with espresso and velvety steamed milk.",
       "price": 30,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Mocha",
       "description": "A delightful blend of espresso, steamed milk, and chocolate syrup, topped with whipped cream.",
       "price": 40,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Macchiato",
       "description": "An espresso topped with a small amount of frothy milk, offering a strong coffee flavor with a creamy touch.",
       "price": 25,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Caffè Latte",
       "description": "A creamy coffee drink made with espresso and a generous amount of steamed milk.",
       "price": 32,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Affogato",
+      "description": "A decadent dessert coffee with a shot of hot espresso poured over a scoop of vanilla ice cream.",
+      "price": 45,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Irish Coffee",
+      "description": "A warm cocktail made with coffee, Irish whiskey, sugar, and topped with cream.",
+      "price": 55,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Cold Brew",
+      "description": "A smooth, refreshing coffee brewed slowly with cold water over an extended period.",
+      "price": 35,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Cortado",
+      "description": "A balanced coffee drink made with equal parts espresso and steamed milk.",
+      "price": 28,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Turkish Coffee",
+      "description": "A traditional coffee with a strong, rich flavor, prepared in a special pot called a cezve.",
+      "price": 30,
+      "size": ["Standard", "Large"]
     }
   ],
   "teaData": [
@@ -68,31 +128,61 @@
       "name": "Chai Latte",
       "description": "A spiced tea latte with rich flavors of cinnamon, cardamom, and ginger, mixed with steamed milk.",
       "price": 35,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Green Tea",
       "description": "A refreshing and calming tea made from steamed green tea leaves.",
       "price": 25,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Earl Grey Tea",
       "description": "A classic black tea infused with the essence of bergamot orange, perfect for a mid-day break.",
       "price": 30,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Chamomile Tea",
       "description": "A soothing herbal tea made from chamomile flowers, known for its calming effects.",
       "price": 28,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Peppermint Tea",
       "description": "A refreshing tea made from peppermint leaves, great for a digestive boost.",
       "price": 26,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Jasmine Tea",
+      "description": "A fragrant green tea scented with jasmine blossoms, offering a delicate floral flavor.",
+      "price": 32,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Oolong Tea",
+      "description": "A traditional Chinese tea with a complex flavor profile, somewhere between green and black tea.",
+      "price": 34,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "English Breakfast Tea",
+      "description": "A robust and full-bodied black tea blend, perfect for starting the day.",
+      "price": 30,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Hibiscus Tea",
+      "description": "A tart and fruity herbal tea made from hibiscus flowers, rich in antioxidants.",
+      "price": 29,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Lemongrass Tea",
+      "description": "A refreshing herbal tea made from lemongrass, offering a citrusy flavor with a hint of sweetness.",
+      "price": 28,
+      "size": ["Standard", "Large"]
     }
   ],
   "pastriesData": [
@@ -100,31 +190,61 @@
       "name": "Croissant",
       "description": "A flaky, buttery French pastry that pairs perfectly with coffee or tea.",
       "price": 20,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Blueberry Muffin",
       "description": "A soft, sweet muffin filled with fresh blueberries and a hint of vanilla.",
       "price": 25,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Apple Tart",
       "description": "A sweet pastry filled with spiced apples and topped with a golden crust.",
       "price": 30,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Almond Danish",
       "description": "A sweet pastry made with almond filling and topped with sliced almonds.",
       "price": 28,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
     },
     {
       "name": "Carrot Cake",
       "description": "A moist and spiced cake made with grated carrots, topped with cream cheese frosting.",
       "price": 35,
-      "size": ["Small", "Medium", "Large"]
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Cinnamon Roll",
+      "description": "A soft and gooey pastry rolled with cinnamon and sugar, topped with a sweet glaze.",
+      "price": 27,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "description": "A classic cookie loaded with melty chocolate chips, crispy on the edges and chewy in the center.",
+      "price": 15,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Banana Bread",
+      "description": "A moist, flavorful loaf made with ripe bananas and a hint of cinnamon.",
+      "price": 22,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Cheese Danish",
+      "description": "A rich and creamy Danish pastry filled with sweetened cream cheese.",
+      "price": 30,
+      "size": ["Standard", "Large"]
+    },
+    {
+      "name": "Raspberry Tart",
+      "description": "A delicate pastry filled with fresh raspberries and a sweet glaze.",
+      "price": 35,
+      "size": ["Standard", "Large"]
     }
   ]
 }

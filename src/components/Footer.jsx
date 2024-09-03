@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function Footer() {
   return (
-    <footer className="bg-Beige p-20 flex justify-between items-center">
+    <footer className="bg-Beige p-20 flex justify-between items-center z-50">
       <Logo size="20" />
       <nav className="flex flex-col">
         <ul>

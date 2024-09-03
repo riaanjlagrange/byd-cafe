@@ -26,7 +26,7 @@ function ProductPanel({ page }) {
   }
 
   return (
-    <ul className="grid grid-cols-3 grid-rows-auto auto-rows-fr p-10 gap-10">
+    <ul className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-10 gap-[5rem] justify-center">
       {data.map((item, index) => (
         <Card data={item} key={index} />
       ))}

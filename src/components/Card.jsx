@@ -2,19 +2,22 @@ import PropTypes from "prop-types";
 
 function Card({ data }) {
   return (
-    <li className="relative m-5 flex flex-col items-center rounded-t shadow-lg">
-      <div className="bg-Mocha-light w-full h-60 shadow"></div>
-      <div className="p-5 flex flex-col justify-between">
-        <h2 className="text-lg font-bold text-Mocha-dark mb-3">{data.name}</h2>
-        <span className="absolute right-[-0.5rem] top-[-0.5rem] bg-Beige rounded-full p-4 font-bold text-Mocha">
-          R{data.price}
-        </span>
-        <p className="">{data.description}</p>
-        <ul className="flex gap-3 items-center justify-center">
-          {data.size.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+    <li className="card bg-base-100 w-full shadow-md hover:shadow-xl hover:scale-105 transition-all">
+      <figure className="h-[12rem]">
+        <img src={data.image} alt="Shoes" className="w-full" />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">
+          {data.name}
+          <div className="badge badge-secondary bg-Mocha text-white border-none">
+            {data.price} ZAR
+          </div>
+        </h2>
+        <p className="h-20">{data.description}</p>
+        <div className="card-actions justify-end">
+          <div className="badge badge-outline">{data.size[0]}</div>
+          <div className="badge badge-outline">{data.size[1]}</div>
+        </div>
       </div>
     </li>
   );
@@ -26,6 +29,7 @@ Card.propTypes = {
     description: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     size: PropTypes.arrayOf(PropTypes.string).isRequired,
+    image: PropTypes.number.isRequired,
   }).isRequired,
 };
 
