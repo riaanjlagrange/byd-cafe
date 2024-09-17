@@ -29,7 +29,7 @@ Card.propTypes = {
     description: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     size: PropTypes.arrayOf(PropTypes.string).isRequired,
-    image: PropTypes.number.isRequired,
+    image: PropTypes.string.isRequired,
   }).isRequired,
 };
 

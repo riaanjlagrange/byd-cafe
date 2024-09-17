@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
 function Footer() {
   return (
-    <footer className="bg-Beige p-20 flex justify-between items-center z-50">
+    <footer className="p-20 flex justify-between items-center border-t-2 border-gray-200 z-50">
       <Logo size="20" />
       <nav className="flex flex-col">
         <ul>
           <li className="mb-1 text-Mocha font-medium">
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li className="mb-1 text-Mocha font-medium">
-            <Link to="/products">Products</Link>
+            <NavLink to="/products/recommended">Products</NavLink>
           </li>
           <li className="mb-1 text-Mocha font-medium">
-            <Link to="/services">Services</Link>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li className="mb-1 text-Mocha font-medium">
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>

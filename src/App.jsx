@@ -1,28 +1,40 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import ServicePage from "./pages/ServicePage";
 import ContactPage from "./pages/ContactPage";
 import NoPage from "./pages/NoPage";
+import ProductPanel from "./components/ProductPanel";
+import RootLayout from "./RootLayout";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { path: "/", element: <HomePage /> },
+      {
+        path: "/products",
+        element: <ProductPage />,
+        children: [
+          {
+            path: "/products/:category",
+            element: <ProductPanel />,
+          },
+        ],
+      },
+      { path: "/services", element: <ServicePage /> },
+      { path: "/contact", element: <ContactPage /> },
+      { path: "*", element: <NoPage /> },
+    ],
+  },
+]);
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path="/" element={<HomePage />} />
-          <Route path="/products" element={<ProductPage />} />
-          <Route path="/services" element={<ServicePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="*" element={<NoPage />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   );
 }

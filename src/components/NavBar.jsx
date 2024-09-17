@@ -1,34 +1,56 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav>
-      <ul className="list-none gap-5">
+      <ul className="list-none gap-5 flex">
         <li>
-          <Link
+          <NavLink
             to="/"
-            className="mr-5 font-bold text-lg text-Mocha hover:text-Mocha-light transition-all"
+            className={({ isActive }) =>
+              isActive
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+            }
           >
             Home
-          </Link>
-          <Link
-            to="/products"
-            className="mr-5 font-bold text-lg text-Mocha hover:text-Mocha-light transition-all"
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/products/recommended"
+            className={({ isActive }) =>
+              isActive
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+            }
           >
             Product
-          </Link>
-          <Link
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/services"
-            className="mr-5 font-bold text-lg text-Mocha hover:text-Mocha-light transition-all"
+            className={({ isActive }) =>
+              isActive
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+            }
           >
             Services
-          </Link>
-          <Link
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/contact"
-            className="font-bold text-lg text-Mocha hover:text-Mocha-light transition-all"
+            className={({ isActive }) =>
+              isActive
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+            }
           >
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

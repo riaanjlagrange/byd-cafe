@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
-import PropTypes from "prop-types";
 import Card from "../components/Card";
+import { useParams } from "react-router-dom";
 
-function ProductPanel({ page }) {
+function ProductPanel() {
+  const { category } = useParams();
   const [data, setData] = useState([]);
-  const endpoint = `http://localhost:3002/api/${page}`;
-  console.log(endpoint);
 
   useEffect(() => {
+    const endpoint = `http://localhost:3002/api/data`;
     fetch(endpoint)
       .then((response) => {
         if (!response.ok) {
@@ -19,23 +19,19 @@ function ProductPanel({ page }) {
       .catch((err) => {
         console.error("Error fetching data:", err);
       });
-  }, [endpoint]);
+  }, []);
 
   if (data.length < 1) {
     return <h1>Error fetching data</h1>;
   }
 
   return (
-    <ul className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-10 gap-[5rem] justify-center">
-      {data.map((item, index) => (
+    <ul className="h-[90vh] overflow-x-hidden overflow-y-scroll grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-10 gap-[5rem] justify-center">
+      {data[category].map((item, index) => (
         <Card data={item} key={index} />
       ))}
     </ul>
   );
 }
-
-ProductPanel.propTypes = {
-  page: PropTypes.string.isRequired,
-};
 
 export default ProductPanel;
