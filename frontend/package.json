@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "byd-cafe": "file:..",
     "cors": "^2.8.5",
     "daisyui": "^4.12.10",
     "express": "^4.19.2",

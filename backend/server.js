@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
-import { fileURLToPath } from "url";
 import { promises as fs } from "fs";
 
 const data = JSON.parse(
@@ -11,19 +10,18 @@ const data = JSON.parse(
 const app = express();
 const port = 3002;
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.resolve();
 
 app.use(cors());
 
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
 app.get("/api/data", (req, res) => {
   res.json(data);
 });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
 });
 
 app.listen(port, () => {
