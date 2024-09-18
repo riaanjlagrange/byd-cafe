@@ -7,7 +7,7 @@ function ProductPanel() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    const endpoint = `http://localhost:3002/api/data`;
+    const endpoint = "/api/data";
     fetch(endpoint)
       .then((response) => {
         if (!response.ok) {
