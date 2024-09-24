@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ServicePage() {
 	const categories = [
-		{ title: "Coffee & Refershments", description: "Enjoy freshly brewed coffee, tea and light snacks.", CTA: "See Menu", CTALink: "/products", img: "/services/coffee.jpg" },
+		{ title: "Coffee & Refershments", description: "Enjoy freshly brewed coffee, tea and light snacks.", CTA: "See Menu", CTALink: "/products/recommended", img: "/services/coffee.jpg" },
 		{ title: "Private Workspaces", description: "Book a quiet, comfortable space with free Wi-Fi for working or studying.", CTA: "Book a Workspace", CTALink: "/bookings", img: "/services/workspace.jpg" },
 		{ title: "Community & Events", description: "Join our events or host your own in our welcoming space.", CTA: "View Events", CTALink: "/events", img: "/services/events.jpg" },
 	];
