@@ -5,35 +5,35 @@
       "description": "A classic Italian coffee drink with espresso and steamed milk, topped with a layer of frothy milk foam.",
       "price": 35,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Cappuccino&font=roboto"
+      "image": "https://images.pexels.com/photos/15800396/pexels-photo-15800396/free-photo-of-symbols-made-of-coffee-foam.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Lemon Poppy Seed Muffin",
       "description": "A moist and tangy lemon-flavored muffin, dotted with crunchy poppy seeds.",
       "price": 25,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Lemon+Poppy+Seed+Muffin&font=roboto"
+      "image": "https://images.pexels.com/photos/1657343/pexels-photo-1657343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Rooibos Latte",
       "description": "A South African twist on the latte, made with brewed rooibos tea and steamed milk.",
       "price": 30,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Rooibos+Latte&font=roboto"
+      "image": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Iced Americano",
       "description": "A refreshing cold brew coffee with a bold, smooth flavor, served over ice.",
       "price": 28,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Iced+Americano&font=roboto"
+      "image": "https://images.pexels.com/photos/4195602/pexels-photo-4195602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Chocolate Croissant",
       "description": "A buttery, flaky croissant filled with rich, melted chocolate.",
       "price": 27,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Chocolate+Croissant&font=roboto"
+      "image": "https://images.pexels.com/photos/3724/food-morning-breakfast-orange-juice.jpg?auto=compress&cs=tinysrgb&w=600"
     }
   ],
   "coffee": [
@@ -42,35 +42,35 @@
       "description": "A strong, bold shot of pure coffee, the foundation of all great coffee drinks.",
       "price": 20,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Espresso&font=roboto"
+      "image": "https://images.pexels.com/photos/685527/pexels-photo-685527.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Flat White",
       "description": "A smooth, creamy coffee made with espresso and velvety steamed milk.",
       "price": 30,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Flat+White&font=roboto"
+      "image": "https://images.pexels.com/photos/894696/pexels-photo-894696.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Mocha",
       "description": "A delightful blend of espresso, steamed milk, and chocolate syrup, topped with whipped cream.",
       "price": 40,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Mocha&font=roboto"
+      "image": "https://images.pexels.com/photos/2299028/pexels-photo-2299028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Macchiato",
       "description": "An espresso topped with a small amount of frothy milk, offering a strong coffee flavor with a creamy touch.",
       "price": 25,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Macchiato&font=roboto"
+      "image": "https://images.pexels.com/photos/14842023/pexels-photo-14842023.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Caffè Latte",
       "description": "A creamy coffee drink made with espresso and a generous amount of steamed milk.",
       "price": 32,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Caff%C3%A8+Latte&font=roboto"
+      "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ],
   "tea": [
@@ -79,72 +79,70 @@
       "description": "A spiced tea latte with rich flavors of cinnamon, cardamom, and ginger, mixed with steamed milk.",
       "price": 35,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Chai+Latte&font=roboto"
+      "image": "https://images.pexels.com/photos/1717772/pexels-photo-1717772.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Green Tea",
       "description": "A refreshing and calming tea made from steamed green tea leaves.",
       "price": 25,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Green+Tea&font=roboto"
+      "image": "https://images.pexels.com/photos/1581484/pexels-photo-1581484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Earl Grey Tea",
       "description": "A classic black tea infused with the essence of bergamot orange, perfect for a mid-day break.",
       "price": 30,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Earl+Grey+Tea&font=roboto"
+      "image": "https://images.pexels.com/photos/1493080/pexels-photo-1493080.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Chamomile Tea",
       "description": "A soothing herbal tea made from chamomile flowers, known for its calming effects.",
       "price": 28,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Chamomile+Tea&font=roboto"
+      "image": "https://images.pexels.com/photos/1966375/pexels-photo-1966375.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Peppermint Tea",
       "description": "A refreshing tea made from peppermint leaves, great for a digestive boost.",
       "price": 26,
-      "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Peppermint+Tea&font=roboto"
-    }
-  ],
-  "pastries": [
+	  "size": ["Standard", "Large"],
+      "image": "https://images.pexels.com/photos/208493/pexels-photo-208493.jpeg?auto=compress&cs=tinysrgb&w=600"
+    
     {
       "name": "Croissant",
       "description": "A flaky, buttery French pastry that pairs perfectly with coffee or tea.",
       "price": 20,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Croissant&font=roboto"
+      "image": "https://images.pexels.com/photos/792404/pexels-photo-792404.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Blueberry Muffin",
       "description": "A soft, sweet muffin filled with fresh blueberries and a hint of vanilla.",
       "price": 25,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Blueberry+Muffin&font=roboto"
+      "image": "https://images.pexels.com/photos/3650438/pexels-photo-3650438.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Apple Tart",
       "description": "A sweet pastry filled with spiced apples and topped with a golden crust.",
       "price": 30,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Apple+Tart&font=roboto"
+      "image": "https://images.pexels.com/photos/5840154/pexels-photo-5840154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Almond Danish",
       "description": "A sweet pastry made with almond filling and topped with sliced almonds.",
       "price": 28,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Almond+Danish&font=roboto"
+      "image": "https://images.pexels.com/photos/792406/pexels-photo-792406.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "name": "Carrot Cake",
       "description": "A moist and spiced cake made with grated carrots, topped with cream cheese frosting.",
       "price": 35,
       "size": ["Standard", "Large"],
-      "image": "https://placehold.co/800?text=Carrot+Cake&font=roboto"
+      "image": "https://images.pexels.com/photos/2267873/pexels-photo-2267873.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }
