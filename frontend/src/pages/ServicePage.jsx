@@ -24,7 +24,7 @@ function ServicePage() {
 		</section>
 		<section>
 			<h2 className="text-center text-Mocha-light font-bold">Interested in hosting an event or booking a workspace?</h2>
-			<Link to="/contact" className="text-white bg-Mocha hover:bg-Mocha-light transition-all px-5 py-2 rounded-sm block w-36 mx-auto mt-5 flex justify-center items-center">Book Now</Link>
+			<Link to="/contact" className="text-white bg-Mocha hover:bg-Mocha-light transition-all px-5 py-2 rounded-sm w-36 mx-auto mt-5 flex justify-center items-center">Contact Us</Link>
 		</section>
 	</div>
   ) 
