@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function ContactCTA() {
   return (
-	<div className="m-auto w-3/4 lg:flex-row flex-col flex gap-20">
+	<div className="m-auto w-3/4 lg:flex-row flex-col flex gap-20 mt-10">
 		<div className="flex-1 flex flex-col items-center gap-5">
 			<img src="/menu.jpg" alt="workspace" className="rounded-md"/>
 			<div className="flex justify-between w-full">
