@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import { FaHome, FaPhone } from "react-icons/fa";
+import { MdRestaurantMenu } from "react-icons/md";
+import { MdWorkspacesFilled } from "react-icons/md";
 
 function NavBar() {
   return (
@@ -9,11 +12,11 @@ function NavBar() {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
-                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-            Home
+           <FaHome className="mr-2" /> Home
           </NavLink>
         </li>
         <li>
@@ -21,10 +24,11 @@ function NavBar() {
             to="/products/recommended"
             className={({ isActive }) =>
               isActive
-                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
-                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
+			<MdRestaurantMenu className="mr-2" />
             Product
           </NavLink>
         </li>
@@ -33,10 +37,11 @@ function NavBar() {
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
-                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
+			<MdWorkspacesFilled className="mr-2" />
             Services
           </NavLink>
         </li>
@@ -45,10 +50,11 @@ function NavBar() {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all"
-                : "text-md text-Mocha hover:text-Mocha-light transition-all"
+                ? "font-bold text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
+                : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
+			<FaPhone className="mr-2" />
             Contact
           </NavLink>
         </li>
