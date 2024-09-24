@@ -101,13 +101,16 @@
       "price": 28,
       "size": ["Standard", "Large"],
       "image": "https://images.pexels.com/photos/1966375/pexels-photo-1966375.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
+    }
+  ],
+  "pastries": [
     {
       "name": "Peppermint Tea",
       "description": "A refreshing tea made from peppermint leaves, great for a digestive boost.",
       "price": 26,
 	  "size": ["Standard", "Large"],
       "image": "https://images.pexels.com/photos/208493/pexels-photo-208493.jpeg?auto=compress&cs=tinysrgb&w=600"
+	},
     
     {
       "name": "Croissant",
