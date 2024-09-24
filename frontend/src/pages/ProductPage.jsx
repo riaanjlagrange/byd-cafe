@@ -1,5 +1,4 @@
 import ProductNav from "../components/ProductNav";
-// import ProductPanel from "../components/ProductPanel";
 import { Outlet } from "react-router-dom";
 
 function ProductPage() {

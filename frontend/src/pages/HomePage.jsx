@@ -1,5 +1,11 @@
+import Hero from "../components/Hero";
+
 function HomePage() {
-  return <h1 className="mb-20">testHome</h1>;
+  return (
+	<div className="flex items-center flex-col w-[100vw]">
+  		<Hero />
+	</div>
+  );
 }
 
 export default HomePage;
