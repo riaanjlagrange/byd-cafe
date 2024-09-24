@@ -4,7 +4,7 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <footer className="p-20 flex justify-between items-center border-t-2 border-gray-200 z-50">
-      <Logo size="20" />
+      <Logo size="100"/>
       <nav className="flex flex-col">
         <ul>
           <li className="mb-1 text-Mocha font-medium">
