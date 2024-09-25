@@ -9,7 +9,6 @@ import BookingsPage from "./pages/BookingsPage";
 import EventsPage from "./pages/EventsPage";
 import ProductPanel from "./components/ProductPanel";
 import RootLayout from "./RootLayout";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
             element: <ProductPanel />,
           },
         ],
-      },
+     												 },
       { path: "/services", element: <ServicePage /> },
       { path: "/contact", element: <ContactPage /> },
       { path: "/bookings", element: <BookingsPage /> },

@@ -17,7 +17,7 @@ function ContactCTA() {
 			<img src="/workspace.jpg" alt="workspace" className="rounded-md"/>
 			<div className="flex justify-between w-full">
 				<h1 className="text-xl text-Mocha flex items-center justify-center gap-2"><FaLaptop />Book Your Workspace</h1>
-	  			<Link to="/contact" className="bg-Mocha text-white rounded-md flex gap-2 px-5 py-2 items-center justify-center hover:bg-Mocha-light transition-all">Book Now</Link>
+	  			<Link to="/bookings" className="bg-Mocha text-white rounded-md flex gap-2 px-5 py-2 items-center justify-center hover:bg-Mocha-light transition-all">Book Now</Link>
 			</div>
 		</div>
 	</div>
