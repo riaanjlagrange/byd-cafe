@@ -63,7 +63,7 @@ function Footer() {
         </div>
         <nav>
           <ul className="flex flex-col items-center md:items-start gap-3 w-40">
-          <span className="text-Mocha font-bold mb-3">Follow Us</span>
+            <span className="text-Mocha font-bold mb-3">Follow Us</span>
             {socials.map((social, index) => (
               <li key={index}>
                 <Link
@@ -72,7 +72,7 @@ function Footer() {
                 >
                   {social.icon} {social.name}
                 </Link>
-				</li>
+              </li>
             ))}
           </ul>
         </nav>

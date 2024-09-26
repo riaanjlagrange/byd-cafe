@@ -16,7 +16,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-           <FaHome className="mr-2" /> Home
+            <FaHome className="mr-2" /> Home
           </NavLink>
         </li>
         <li>
@@ -28,7 +28,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-			<MdRestaurantMenu className="mr-2" />
+            <MdRestaurantMenu className="mr-2" />
             Product
           </NavLink>
         </li>
@@ -41,7 +41,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-			<MdWorkspacesFilled className="mr-2" />
+            <MdWorkspacesFilled className="mr-2" />
             Services
           </NavLink>
         </li>
@@ -54,7 +54,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-           <FaBookmark className="mr-2" /> Bookings
+            <FaBookmark className="mr-2" /> Bookings
           </NavLink>
         </li>
         <li>
@@ -66,7 +66,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-           <MdEvent className="mr-2" /> Events
+            <MdEvent className="mr-2" /> Events
           </NavLink>
         </li>
         <li>
@@ -78,7 +78,7 @@ function NavBar() {
                 : "text-md text-Mocha hover:text-Mocha-light transition-all flex items-center justify-center"
             }
           >
-			<FaPhone className="mr-2" />
+            <FaPhone className="mr-2" />
             Contact
           </NavLink>
         </li>
